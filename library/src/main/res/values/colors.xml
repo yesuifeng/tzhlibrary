@@ -15,5 +15,7 @@
     <color name="col_ededed">#ededed</color>
     <color name="col_ff351d">#ff351d</color>
     <color name="col_1dff2c">#1DFF2c</color>
-
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>
