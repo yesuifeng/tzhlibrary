@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<views.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingBottom="1dp"
+    app:ios="false"
+    app:leftSwipe="true"
+    app:swipeEnable="true">
+
+<LinearLayout
+    android:id="@+id/ll_item"
+    android:orientation="vertical"
+     android:layout_marginBottom="3dp"
+    android:padding="10dp"
+    android:background="@color/col_fff"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/col_ff351d"
+        android:text="删除"
+        android:textColor="@android:color/white"/>
+
+   </views.SwipeMenuLayout>

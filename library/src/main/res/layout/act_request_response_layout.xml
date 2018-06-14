@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/base_title_layout"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/title_root"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        />
+
+
+    <Button
+        android:background="@color/col_ff351d"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tv_clear"
+        android:text="清除"
+        android:textColor="@color/col_fff"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="col_fff">#ffffff</color>
+    <color name="col_666">#666666</color>
+    <color name="col_888">#888888</color>
+    <color name="col_999">#999999</color>
+    <color name="col_333">#333333</color>
+    <color name="col_dcdc">#dcdcdc</color>
+    <color name="col_f4f4">#f4f4f4</color>
+    <color name="col_ccccd2">#CCCCD2</color>
+    <color name="col_575757">#575757</color>
+    <color name="col_5c5c5c">#5c5c5c</color>
+    <color name="col_d8d8d8">#d8d8d8</color>
+    <color name="col_f3f3f3">#f3f3f3</color>
+    <color name="col_ededed">#ededed</color>
+    <color name="col_ff351d">#ff351d</color>
+    <color name="col_1dff2c">#1DFF2c</color>
+
+</resources>
